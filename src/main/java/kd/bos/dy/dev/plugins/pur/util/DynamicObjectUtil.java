@@ -54,8 +54,6 @@ public class DynamicObjectUtil {
 			if(pro !=null) {
 				source.set(key, params.get(key));
 			}
-			
-			
 		}
 		return source;
 		
