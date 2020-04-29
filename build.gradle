@@ -1,0 +1,38 @@
+	apply plugin: 'java'
+	apply plugin: 'eclipse'
+	
+	sourceCompatibility=1.8
+	group = 'kd.bos.service'
+	version = '1.0'
+		tasks.withType(JavaCompile) {  
+		options.encoding = "UTF-8" 
+	} 
+	
+	def trd= '../../../mservice-cosmic/lib/trd'
+	def bos= '../../../mservice-cosmic/lib/bos'
+	def biz= '../../../mservice-cosmic/lib/biz'
+	// C:\nextcloudlib\node-debug-mservice\bin
+	
+	//def biz = 'F:/debug/bos-dev-env/mservice-cosmic/lib/biz'
+	//def trd = 'F:/debug/bos-dev-env/mservice-cosmic/lib/trd'
+	//def bos = 'F:/debug/bos-dev-env/mservice-cosmic/lib/bos'
+	
+	dependencies {
+	    runtime fileTree(dir: bos, include: '*.jar')
+	    runtime fileTree(dir: trd, include: '*.jar')
+	    runtime fileTree(dir: biz, include: '*.jar')
+	} 
+	
+	task sourcesJar(type: Jar, dependsOn: build) {
+	    classifier = 'sources'
+	    from sourceSets.main.allSource
+	 }
+	 
+		
+	 task copyJarTodir(type: Copy){
+		    from 'build/libs'
+			into '/home/local/bos'
+			exclude '**/*.class'
+	 }
+	test.ignoreFailures true
+	

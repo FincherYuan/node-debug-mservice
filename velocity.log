@@ -1,0 +1,223 @@
+2020-04-01 10:42:20,272 - SimpleLog4JLogSystem initialized using logfile 'velocity.log'
+2020-04-01 10:42:20,273 - ************************************************************** 
+2020-04-01 10:42:20,273 - Starting Jakarta Velocity v1.4
+2020-04-01 10:42:20,273 - RuntimeInstance initializing.
+2020-04-01 10:42:20,273 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2020-04-01 10:42:20,273 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogSystem
+2020-04-01 10:42:20,273 - Couldn't find class org.apache.velocity.runtime.log.AvalonLogSystem or necessary supporting classes in classpath. Exception : java.lang.NoClassDefFoundError: org/apache/log/format/Formatter
+2020-04-01 10:42:20,273 - Trying to use logger class org.apache.velocity.runtime.log.SimpleLog4JLogSystem
+2020-04-01 10:42:20,273 - Using logger class org.apache.velocity.runtime.log.SimpleLog4JLogSystem
+2020-04-01 10:42:20,300 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2020-04-01 10:42:20,307 - Resource Loader Instantiated: com.kingdee.bos.webframework.management.release.velocity.WebResourceLoader
+2020-04-01 10:42:20,310 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+2020-04-01 10:42:20,310 - Default ResourceManager initialization complete.
+2020-04-01 10:42:20,314 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2020-04-01 10:42:20,317 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2020-04-01 10:42:20,321 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2020-04-01 10:42:20,325 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2020-04-01 10:42:20,326 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2020-04-01 10:42:20,358 - Created: 20 parsers.
+2020-04-01 10:42:20,373 - Velocimacro : initialization starting.
+2020-04-01 10:42:20,373 - Velocimacro : adding VMs from VM library template : VM_global_library.vm
+2020-04-01 10:42:20,375 - ResourceManager : unable to find resource 'VM_global_library.vm' in any resource loader.
+2020-04-01 10:42:20,375 - Velocimacro : error using  VM library template VM_global_library.vm : org.apache.velocity.exception.ResourceNotFoundException: Unable to find resource 'VM_global_library.vm'
+2020-04-01 10:42:20,375 - Velocimacro :  VM library template macro registration complete.
+2020-04-01 10:42:20,375 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2020-04-01 10:42:20,375 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2020-04-01 10:42:20,375 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+2020-04-01 10:42:20,375 - Velocimacro : messages on  : VM system will output logging messages
+2020-04-01 10:42:20,375 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+2020-04-01 10:42:20,375 - Velocimacro : initialization complete.
+2020-04-01 10:42:20,375 - Velocity successfully started.
+2020-04-01 10:42:20,396 - ResourceManager : found pageDefineScript.vm with loader com.kingdee.bos.webframework.management.release.velocity.WebResourceLoader
+2020-04-01 10:42:20,397 - ResourceManager : found tmplFunctions.vm with loader com.kingdee.bos.webframework.management.release.velocity.WebResourceLoader
+2020-04-01 10:42:20,410 - ResourceManager : found pageEventScript.vm with loader com.kingdee.bos.webframework.management.release.velocity.WebResourceLoader
+2020-04-01 16:06:30,846 - SimpleLog4JLogSystem initialized using logfile 'velocity.log'
+2020-04-01 16:06:30,847 - ************************************************************** 
+2020-04-01 16:06:30,847 - Starting Jakarta Velocity v1.4
+2020-04-01 16:06:30,847 - RuntimeInstance initializing.
+2020-04-01 16:06:30,847 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2020-04-01 16:06:30,847 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogSystem
+2020-04-01 16:06:30,847 - Couldn't find class org.apache.velocity.runtime.log.AvalonLogSystem or necessary supporting classes in classpath. Exception : java.lang.NoClassDefFoundError: org/apache/log/format/Formatter
+2020-04-01 16:06:30,847 - Trying to use logger class org.apache.velocity.runtime.log.SimpleLog4JLogSystem
+2020-04-01 16:06:30,847 - Using logger class org.apache.velocity.runtime.log.SimpleLog4JLogSystem
+2020-04-01 16:06:30,872 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2020-04-01 16:06:30,880 - Resource Loader Instantiated: com.kingdee.bos.webframework.management.release.velocity.WebResourceLoader
+2020-04-01 16:06:30,882 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+2020-04-01 16:06:30,882 - Default ResourceManager initialization complete.
+2020-04-01 16:06:30,885 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2020-04-01 16:06:30,888 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2020-04-01 16:06:30,892 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2020-04-01 16:06:30,896 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2020-04-01 16:06:30,897 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2020-04-01 16:06:30,930 - Created: 20 parsers.
+2020-04-01 16:06:30,943 - Velocimacro : initialization starting.
+2020-04-01 16:06:30,943 - Velocimacro : adding VMs from VM library template : VM_global_library.vm
+2020-04-01 16:06:30,945 - ResourceManager : unable to find resource 'VM_global_library.vm' in any resource loader.
+2020-04-01 16:06:30,945 - Velocimacro : error using  VM library template VM_global_library.vm : org.apache.velocity.exception.ResourceNotFoundException: Unable to find resource 'VM_global_library.vm'
+2020-04-01 16:06:30,945 - Velocimacro :  VM library template macro registration complete.
+2020-04-01 16:06:30,945 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2020-04-01 16:06:30,945 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2020-04-01 16:06:30,945 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+2020-04-01 16:06:30,945 - Velocimacro : messages on  : VM system will output logging messages
+2020-04-01 16:06:30,945 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+2020-04-01 16:06:30,945 - Velocimacro : initialization complete.
+2020-04-01 16:06:30,945 - Velocity successfully started.
+2020-04-01 16:06:30,969 - ResourceManager : found pageDefineScript.vm with loader com.kingdee.bos.webframework.management.release.velocity.WebResourceLoader
+2020-04-01 16:06:30,979 - ResourceManager : found tmplFunctions.vm with loader com.kingdee.bos.webframework.management.release.velocity.WebResourceLoader
+2020-04-01 16:06:30,983 - ResourceManager : found pageEventScript.vm with loader com.kingdee.bos.webframework.management.release.velocity.WebResourceLoader
+2020-04-01 16:11:50,831 - ResourceManager : found pageDefineScript.vm with loader com.kingdee.bos.webframework.management.release.velocity.WebResourceLoader
+2020-04-01 16:11:50,832 - ResourceManager : found tmplFunctions.vm with loader com.kingdee.bos.webframework.management.release.velocity.WebResourceLoader
+2020-04-01 16:11:50,833 - ResourceManager : found pageEventScript.vm with loader com.kingdee.bos.webframework.management.release.velocity.WebResourceLoader
+2020-04-01 16:11:54,484 - ResourceManager : found actionEventTmpl.vm with loader com.kingdee.bos.webframework.management.release.velocity.WebResourceLoader
+2020-04-01 16:11:54,606 - ResourceManager : found actionHandlerTmpl.vm with loader com.kingdee.bos.webframework.management.release.velocity.WebResourceLoader
+2020-04-01 16:20:28,974 - ResourceManager : found pageDefineScript.vm with loader com.kingdee.bos.webframework.management.release.velocity.WebResourceLoader
+2020-04-01 16:20:28,975 - ResourceManager : found tmplFunctions.vm with loader com.kingdee.bos.webframework.management.release.velocity.WebResourceLoader
+2020-04-01 16:20:28,976 - ResourceManager : found pageEventScript.vm with loader com.kingdee.bos.webframework.management.release.velocity.WebResourceLoader
+2020-04-01 16:20:47,976 - ResourceManager : found actionEventTmpl.vm with loader com.kingdee.bos.webframework.management.release.velocity.WebResourceLoader
+2020-04-01 16:20:47,985 - ResourceManager : found actionHandlerTmpl.vm with loader com.kingdee.bos.webframework.management.release.velocity.WebResourceLoader
+2020-04-01 16:22:52,880 - ResourceManager : found pageDefineScript.vm with loader com.kingdee.bos.webframework.management.release.velocity.WebResourceLoader
+2020-04-01 16:22:52,882 - ResourceManager : found tmplFunctions.vm with loader com.kingdee.bos.webframework.management.release.velocity.WebResourceLoader
+2020-04-01 16:22:52,883 - ResourceManager : found pageEventScript.vm with loader com.kingdee.bos.webframework.management.release.velocity.WebResourceLoader
+2020-04-03 16:46:43,459 - SimpleLog4JLogSystem initialized using logfile 'velocity.log'
+2020-04-03 16:46:43,469 - ************************************************************** 
+2020-04-03 16:46:43,469 - Starting Jakarta Velocity v1.4
+2020-04-03 16:46:43,469 - RuntimeInstance initializing.
+2020-04-03 16:46:43,469 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2020-04-03 16:46:43,469 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogSystem
+2020-04-03 16:46:43,469 - Couldn't find class org.apache.velocity.runtime.log.AvalonLogSystem or necessary supporting classes in classpath. Exception : java.lang.NoClassDefFoundError: org/apache/log/format/Formatter
+2020-04-03 16:46:43,469 - Trying to use logger class org.apache.velocity.runtime.log.SimpleLog4JLogSystem
+2020-04-03 16:46:43,469 - Using logger class org.apache.velocity.runtime.log.SimpleLog4JLogSystem
+2020-04-03 16:46:43,500 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2020-04-03 16:46:43,506 - Resource Loader Instantiated: com.kingdee.bos.webframework.management.release.velocity.WebResourceLoader
+2020-04-03 16:46:43,510 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+2020-04-03 16:46:43,510 - Default ResourceManager initialization complete.
+2020-04-03 16:46:43,513 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2020-04-03 16:46:43,516 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2020-04-03 16:46:43,520 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2020-04-03 16:46:43,523 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2020-04-03 16:46:43,524 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2020-04-03 16:46:43,556 - Created: 20 parsers.
+2020-04-03 16:46:43,570 - Velocimacro : initialization starting.
+2020-04-03 16:46:43,570 - Velocimacro : adding VMs from VM library template : VM_global_library.vm
+2020-04-03 16:46:43,571 - ResourceManager : unable to find resource 'VM_global_library.vm' in any resource loader.
+2020-04-03 16:46:43,571 - Velocimacro : error using  VM library template VM_global_library.vm : org.apache.velocity.exception.ResourceNotFoundException: Unable to find resource 'VM_global_library.vm'
+2020-04-03 16:46:43,571 - Velocimacro :  VM library template macro registration complete.
+2020-04-03 16:46:43,571 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2020-04-03 16:46:43,571 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2020-04-03 16:46:43,571 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+2020-04-03 16:46:43,571 - Velocimacro : messages on  : VM system will output logging messages
+2020-04-03 16:46:43,571 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+2020-04-03 16:46:43,571 - Velocimacro : initialization complete.
+2020-04-03 16:46:43,571 - Velocity successfully started.
+2020-04-03 16:46:43,592 - ResourceManager : found pageDefineScript.vm with loader com.kingdee.bos.webframework.management.release.velocity.WebResourceLoader
+2020-04-03 16:46:43,602 - ResourceManager : found tmplFunctions.vm with loader com.kingdee.bos.webframework.management.release.velocity.WebResourceLoader
+2020-04-03 16:46:43,607 - ResourceManager : found pageEventScript.vm with loader com.kingdee.bos.webframework.management.release.velocity.WebResourceLoader
+2020-04-03 16:50:54,284 - ResourceManager : found pageDefineScript.vm with loader com.kingdee.bos.webframework.management.release.velocity.WebResourceLoader
+2020-04-03 16:50:54,285 - ResourceManager : found tmplFunctions.vm with loader com.kingdee.bos.webframework.management.release.velocity.WebResourceLoader
+2020-04-03 16:50:54,286 - ResourceManager : found pageEventScript.vm with loader com.kingdee.bos.webframework.management.release.velocity.WebResourceLoader
+2020-04-06 16:27:25,362 - SimpleLog4JLogSystem initialized using logfile 'velocity.log'
+2020-04-06 16:27:25,380 - ************************************************************** 
+2020-04-06 16:27:25,380 - Starting Jakarta Velocity v1.4
+2020-04-06 16:27:25,380 - RuntimeInstance initializing.
+2020-04-06 16:27:25,380 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2020-04-06 16:27:25,380 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogSystem
+2020-04-06 16:27:25,380 - Couldn't find class org.apache.velocity.runtime.log.AvalonLogSystem or necessary supporting classes in classpath. Exception : java.lang.NoClassDefFoundError: org/apache/log/format/Formatter
+2020-04-06 16:27:25,380 - Trying to use logger class org.apache.velocity.runtime.log.SimpleLog4JLogSystem
+2020-04-06 16:27:25,380 - Using logger class org.apache.velocity.runtime.log.SimpleLog4JLogSystem
+2020-04-06 16:27:25,407 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2020-04-06 16:27:25,414 - Resource Loader Instantiated: com.kingdee.bos.webframework.management.release.velocity.WebResourceLoader
+2020-04-06 16:27:25,416 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+2020-04-06 16:27:25,416 - Default ResourceManager initialization complete.
+2020-04-06 16:27:25,420 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2020-04-06 16:27:25,423 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2020-04-06 16:27:25,427 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2020-04-06 16:27:25,430 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2020-04-06 16:27:25,431 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2020-04-06 16:27:25,463 - Created: 20 parsers.
+2020-04-06 16:27:25,476 - Velocimacro : initialization starting.
+2020-04-06 16:27:25,476 - Velocimacro : adding VMs from VM library template : VM_global_library.vm
+2020-04-06 16:27:25,477 - ResourceManager : unable to find resource 'VM_global_library.vm' in any resource loader.
+2020-04-06 16:27:25,478 - Velocimacro : error using  VM library template VM_global_library.vm : org.apache.velocity.exception.ResourceNotFoundException: Unable to find resource 'VM_global_library.vm'
+2020-04-06 16:27:25,478 - Velocimacro :  VM library template macro registration complete.
+2020-04-06 16:27:25,478 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2020-04-06 16:27:25,478 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2020-04-06 16:27:25,478 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+2020-04-06 16:27:25,478 - Velocimacro : messages on  : VM system will output logging messages
+2020-04-06 16:27:25,478 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+2020-04-06 16:27:25,478 - Velocimacro : initialization complete.
+2020-04-06 16:27:25,478 - Velocity successfully started.
+2020-04-06 16:27:25,501 - ResourceManager : found pageDefineScript.vm with loader com.kingdee.bos.webframework.management.release.velocity.WebResourceLoader
+2020-04-06 16:27:25,509 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = pageDefineScript.vm [line 4,column 32] : $event.get("desc") is not a valid reference.
+2020-04-06 16:27:25,510 - ResourceManager : found tmplFunctions.vm with loader com.kingdee.bos.webframework.management.release.velocity.WebResourceLoader
+2020-04-06 16:27:25,520 - ResourceManager : found pageEventScript.vm with loader com.kingdee.bos.webframework.management.release.velocity.WebResourceLoader
+2020-04-07 18:34:07,492 - SimpleLog4JLogSystem initialized using logfile 'velocity.log'
+2020-04-07 18:34:07,503 - ************************************************************** 
+2020-04-07 18:34:07,503 - Starting Jakarta Velocity v1.4
+2020-04-07 18:34:07,503 - RuntimeInstance initializing.
+2020-04-07 18:34:07,503 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2020-04-07 18:34:07,503 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogSystem
+2020-04-07 18:34:07,503 - Couldn't find class org.apache.velocity.runtime.log.AvalonLogSystem or necessary supporting classes in classpath. Exception : java.lang.NoClassDefFoundError: org/apache/log/format/Formatter
+2020-04-07 18:34:07,503 - Trying to use logger class org.apache.velocity.runtime.log.SimpleLog4JLogSystem
+2020-04-07 18:34:07,503 - Using logger class org.apache.velocity.runtime.log.SimpleLog4JLogSystem
+2020-04-07 18:34:07,533 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2020-04-07 18:34:07,540 - Resource Loader Instantiated: com.kingdee.bos.webframework.management.release.velocity.WebResourceLoader
+2020-04-07 18:34:07,543 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+2020-04-07 18:34:07,543 - Default ResourceManager initialization complete.
+2020-04-07 18:34:07,546 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2020-04-07 18:34:07,550 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2020-04-07 18:34:07,555 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2020-04-07 18:34:07,558 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2020-04-07 18:34:07,560 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2020-04-07 18:34:07,594 - Created: 20 parsers.
+2020-04-07 18:34:07,608 - Velocimacro : initialization starting.
+2020-04-07 18:34:07,609 - Velocimacro : adding VMs from VM library template : VM_global_library.vm
+2020-04-07 18:34:07,610 - ResourceManager : unable to find resource 'VM_global_library.vm' in any resource loader.
+2020-04-07 18:34:07,610 - Velocimacro : error using  VM library template VM_global_library.vm : org.apache.velocity.exception.ResourceNotFoundException: Unable to find resource 'VM_global_library.vm'
+2020-04-07 18:34:07,610 - Velocimacro :  VM library template macro registration complete.
+2020-04-07 18:34:07,610 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2020-04-07 18:34:07,610 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2020-04-07 18:34:07,610 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+2020-04-07 18:34:07,610 - Velocimacro : messages on  : VM system will output logging messages
+2020-04-07 18:34:07,610 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+2020-04-07 18:34:07,611 - Velocimacro : initialization complete.
+2020-04-07 18:34:07,611 - Velocity successfully started.
+2020-04-07 18:34:07,636 - ResourceManager : found pageDefineScript.vm with loader com.kingdee.bos.webframework.management.release.velocity.WebResourceLoader
+2020-04-07 18:34:07,644 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = pageDefineScript.vm [line 4,column 32] : $event.get("desc") is not a valid reference.
+2020-04-07 18:34:07,645 - ResourceManager : found tmplFunctions.vm with loader com.kingdee.bos.webframework.management.release.velocity.WebResourceLoader
+2020-04-07 18:34:07,656 - ResourceManager : found pageEventScript.vm with loader com.kingdee.bos.webframework.management.release.velocity.WebResourceLoader
+2020-04-08 16:08:28,580 - SimpleLog4JLogSystem initialized using logfile 'velocity.log'
+2020-04-08 16:08:28,596 - ************************************************************** 
+2020-04-08 16:08:28,596 - Starting Jakarta Velocity v1.4
+2020-04-08 16:08:28,596 - RuntimeInstance initializing.
+2020-04-08 16:08:28,596 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2020-04-08 16:08:28,596 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogSystem
+2020-04-08 16:08:28,596 - Couldn't find class org.apache.velocity.runtime.log.AvalonLogSystem or necessary supporting classes in classpath. Exception : java.lang.NoClassDefFoundError: org/apache/log/format/Formatter
+2020-04-08 16:08:28,596 - Trying to use logger class org.apache.velocity.runtime.log.SimpleLog4JLogSystem
+2020-04-08 16:08:28,596 - Using logger class org.apache.velocity.runtime.log.SimpleLog4JLogSystem
+2020-04-08 16:08:28,656 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2020-04-08 16:08:28,662 - Resource Loader Instantiated: com.kingdee.bos.webframework.management.release.velocity.WebResourceLoader
+2020-04-08 16:08:28,665 - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+2020-04-08 16:08:28,665 - Default ResourceManager initialization complete.
+2020-04-08 16:08:28,668 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2020-04-08 16:08:28,671 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2020-04-08 16:08:28,675 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2020-04-08 16:08:28,677 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2020-04-08 16:08:28,678 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2020-04-08 16:08:28,711 - Created: 20 parsers.
+2020-04-08 16:08:28,723 - Velocimacro : initialization starting.
+2020-04-08 16:08:28,724 - Velocimacro : adding VMs from VM library template : VM_global_library.vm
+2020-04-08 16:08:28,725 - ResourceManager : unable to find resource 'VM_global_library.vm' in any resource loader.
+2020-04-08 16:08:28,725 - Velocimacro : error using  VM library template VM_global_library.vm : org.apache.velocity.exception.ResourceNotFoundException: Unable to find resource 'VM_global_library.vm'
+2020-04-08 16:08:28,725 - Velocimacro :  VM library template macro registration complete.
+2020-04-08 16:08:28,725 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2020-04-08 16:08:28,725 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2020-04-08 16:08:28,725 - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+2020-04-08 16:08:28,725 - Velocimacro : messages on  : VM system will output logging messages
+2020-04-08 16:08:28,725 - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+2020-04-08 16:08:28,725 - Velocimacro : initialization complete.
+2020-04-08 16:08:28,725 - Velocity successfully started.
+2020-04-08 16:08:28,747 - ResourceManager : found pageDefineScript.vm with loader com.kingdee.bos.webframework.management.release.velocity.WebResourceLoader
+2020-04-08 16:08:28,754 - org.apache.velocity.runtime.exception.ReferenceException: reference : template = pageDefineScript.vm [line 4,column 32] : $event.get("desc") is not a valid reference.
+2020-04-08 16:08:28,775 - ResourceManager : found tmplFunctions.vm with loader com.kingdee.bos.webframework.management.release.velocity.WebResourceLoader
+2020-04-08 16:08:28,789 - ResourceManager : found pageEventScript.vm with loader com.kingdee.bos.webframework.management.release.velocity.WebResourceLoader
