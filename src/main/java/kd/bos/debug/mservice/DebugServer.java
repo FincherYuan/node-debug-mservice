@@ -31,13 +31,21 @@ public class DebugServer {
 
 	    System.setProperty("lightweightdeploy","true");
 		
-		System.setProperty("db.sql.out", "false");
+		System.setProperty("db.sql.out", "true");// 设置输出日志
+		
 
 		System.setProperty("JETTY_WEB_PORT","8080");
-		System.setProperty("JETTY_WEBAPP_PATH", "../../../mservice-cosmic/webapp");
-		System.setProperty("JETTY_WEBRES_PATH", "../../../static-file-service");
+		/*System.setProperty("JETTY_WEBAPP_PATH", "../../../mservice-cosmic/webapp");
+		System.setProperty("JETTY_WEBRES_PATH", "../../../static-file-service");*/
+		System.setProperty("JETTY_WEBAPP_PATH", "P:/kingdee/debug_resource/mservice/webapp");//本地Jettywebapp路径
+		//System.setProperty("JETTY_WEBRES_PATH", "P:/kingdee/debug_resource/static-file-service/webapp");//本地静态资源路径
+		System.setProperty("JETTY_WEBRES_PATH", "P:/kingdee/cosmic-patch-latest/resource/webapp");//本地静态资源路径
+		System.setProperty("actionConfigFiles.config", "P:/kingdee/debug_resource/mservice/conf/qing-actionconfig.xml");//轻分析action本地配置文件路径
+		System.setProperty("ActionConfigFile", "P:/kingdee/debug_resource/mservice/conf/actionconfig.xml");//微服务action本地配置文件路径
+		
+		
 
-		System.setProperty("domain.contextUrl","http://localhost:8080/ierp");		
+		System.setProperty("domain.contextUrl","http://127.0.0.1:8080/ierp");		
 	    System.setProperty("domain.tenantCode","cosmic-simple");
 	    System.setProperty("tenant.code.type","config");
 		
